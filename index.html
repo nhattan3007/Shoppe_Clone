@@ -3,13 +3,99 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE-egde">
     <meta name="viewport" content="width=device-width initial-scale=1.0">
-    <title>lab1</title>
+    <title>shoppe_clone</title>
 </head>
 
 <body>
+    <div class="logo">
+        <img src="https://downloadlogomienphi.com/sites/default/files/logos/download-logo-vector-shopee-mien-phi.jpg"
+            alt="Shopee Logo"> <!-- Thêm logo Shopee -->
+    </div>
+    <nav>
+        <ul>
+            <li><a href="#">Trang chủ</a></li>
+            <li><a href="#">Danh mục</a></li>
+            <li><a href="#">Flash Sale</a></li>
+            <li><a href="#">Giảm giá</a></li>
+            <li><a href="#">Liên hệ</a></li>
+        </ul>
+    </nav>
+    </header>
+    <!-- Main Content -->
+    <main>
+        <!-- Banner quảng cáo -->
+        <section class="banner">
+            <img src="banner.jpg" alt="Banner Quảng Cáo">
+        </section>
 
+        <!-- Danh mục sản phẩm -->
+        <section class="categories">
+            <h1>Danh mục sản phẩm</h1>
+            <div class="category-list">
+                <article class="category-item">
+                    <h2>Điện thoại</h2>
+                    <img src="phone.jpg" alt="Điện thoại">
+                </article>
+                <article class="category-item">
+                    <h3>Máy tính bảng</h3>
+                    <img src="tablet.jpg" alt="Máy tính bảng">
+                </article>
+                <article class="category-item">
+                    <h3>Phụ kiện</h3>
+                    <img src="accessories.jpg" alt="Phụ kiện">
+                </article>
+                <!-- Thêm các danh mục sản phẩm khác -->
+            </div>
+        </section>
+
+        <!-- Flash Sale -->
+        <section class="flash-sale">
+            <h1>Flash Sale</h1>
+            <ul class="product-list">
+                <li class="product-item">
+                    <img src="product1.jpg" alt="Sản phẩm 1">
+                    <p>Sản phẩm 1</p>
+                    <p>Giá: 100.000 VND</p>
+                </li>
+                <li class="product-item">
+                    <img src="product2.jpg" alt="Sản phẩm 2">
+                    <p>Sản phẩm 2</p>
+                    <p>Giá: 200.000 VND</p>
+                </li>
+                <!-- Thêm các sản phẩm khác -->
+            </ul>
+        </section>
+    </main>
+    <!-- Sidebar bộ lọc -->
+    <aside class="sidebar">
+        <h2>Bộ lọc sản phẩm</h2>
+        <form>
+            <label for="category">Danh mục:</label>
+            <select id="category" name="category">
+                <option value="phones">Điện thoại</option>
+                <option value="tablets">Máy tính bảng</option>
+                <option value="accessories">Phụ kiện</option>
+                <!-- Thêm các danh mục khác -->
+            </select>
+            <button type="submit">Áp dụng bộ lọc</button>
+        </form>
+    </aside>
+    <footer>
+        <div>Công Ty TNHH Shoppe</div>
+        <div>Địa chỉ: Tầng 4-5-6, Tòa nhà Capital Place, số 29 đường Liễu Giai, Phường Ngọc Khánh, Quận Ba Đình, Thành
+            phố Hà Nội, Việt Nam. Tổng đài hỗ trợ: 19001221 - Email: cskh@hotro.shopee.vn
+        </div>
+        <div>
+            Chịu Trách Nhiệm Quản Lý Nội Dung: Nguyễn Bùi Anh Tuấn
+        </div>
+        <div>
+            Mã số doanh nghiệp: 0106773786 do Sở Kế hoạch & Đầu tư TP Hà Nội cấp lần đầu ngày 10/02/2015
+        </div>
+        <div>
+            © 2015 - Bản quyền thuộc về Công ty TNHH Shopee
+        </div>
+    </footer>
 </body>
 
 </html>
