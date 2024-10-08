@@ -1,0 +1,17 @@
+.background-footer {
+    margin-top: 4px;
+    width: auto;
+    height: auto;
+    background-color: aqua;
+}
+
+.sections-shoppe-footer {
+    padding-bottom: 30px;
+}
+
+.sections-shoppe-footer_heading {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 23.8px;
+    unicode-bidi: isolate;
+}
