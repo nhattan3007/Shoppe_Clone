@@ -132,7 +132,6 @@
 }
 
 .shopee-searchbar {
-    box-shadow: 0 .125rem .25 rgba(0, 0, 0, .09);
     width: 100%;
     display: flex;
     align-items: stretch;
@@ -173,7 +172,22 @@
     background-color: #fb5533;
     outline: 0;
     overflow: visible;
-    position: relative;
+    position: absolute;
     height: 34px;
-
+    padding: 0 15px;
+    min-width: 60px;
+    max-width: 190px;
+    flex-direction: column;
+    font-size: 14px;
+    box-sizing: border-box;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .09);
+    border-radius: 2px;
+    border: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+    cursor: pointer;
+    right: 0;
+    top: 4px;
 }
