@@ -1,14 +1,17 @@
-.background-header {
-    background-color: orange;
+.body {
+    font-size: .825rem;
 }
 
-
+.background-navbar {
+    background-color: #fb5533;
+}
 
 .navbar-container {
     display: flex;
     justify-content: space-between;
     color: #fff;
-    margin: 0;
+    margin-left: 159.600px;
+    margin-right: 159.600px;
 }
 
 
@@ -21,20 +24,30 @@
 
 .navbar-left-list {
     display: flex;
-    justify-content: center;
     align-items: center;
     list-style: none;
-    background-color: gray;
     padding: 0;
     margin: 0;
+    font-size: .875rem;
 }
+
 
 .flex-contact-list {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding-left: 4px;
+    padding: 0px;
+}
+
+.flex-contact-list-item {
+    margin: 0px 0px 0px 10px;
+    padding: 4px 0px 4px 4px;
+}
+
+.flex-contact-list-icon {
+    display: flex;
+    padding: 4px 0px 4px 4px;
 }
 
 .navbar-right {
@@ -54,9 +67,113 @@
     align-items: center;
     list-style: none;
     background-color: gray;
+    padding: 0;
+    margin: 0;
+    font-size: .875rem;
 }
 
-
-.navbar-container-with-search {
+.navbar-right-list-notification {
     display: flex;
+    padding: 6px 0px;
+}
+
+.navbar-right-list-help {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px 10px;
+}
+
+.navbar-right-list-lauguages {
+    display: flex;
+    padding: 7px 10px;
+}
+
+.navbar-link-signup {
+    padding: 0px 10px;
+}
+
+.navbar-link-login {
+    padding: 0px 10px;
+}
+
+.container-wrapper .header-with-search_search-wrapper {
+    min-width: inherit;
+}
+
+.container-header-with-search {
+    display: flex;
+    justify-content: space-between;
+    width: inherit;
+    height: 5.3125rem;
+    padding: 1rem 0 .625rem;
+    margin: 0px 159.600px 0px 159.600px;
+}
+
+.header-with-search_logo-section {
+    padding-right: 2.5rem;
+    position: relative;
+    top: -.1875rem;
+
+}
+
+.header-with-search_logo-wrapper {
+    border-radius: 2px;
+    margin: -2px;
+    padding: 2px;
+}
+
+.header-with-search_search-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
+    width: 840px;
+}
+
+.shopee-searchbar {
+    box-shadow: 0 .125rem .25 rgba(0, 0, 0, .09);
+    width: 100%;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    background-color: #fff;
+    border-radius: 2px;
+    box-sizing: border-box;
+    height: 2.5rem;
+    padding: .1875rem;
+}
+
+.shopee-searchbar_main {
+    display: flex;
+    flex: 1;
+}
+
+.shopee-searchbar-input {
+    background-color: #fff;
+    border-color: #fff;
+    box-sizing: border-box;
+    display: flex;
+    flex: 1;
+    padding: 0 .625rem;
+    position: relative;
+}
+
+.shopee-searchbar-input_input {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    border: 0;
+    margin: 0;
+    outline: none;
+    padding: 0;
+}
+
+.search-button {
+    background-color: #fb5533;
+    outline: 0;
+    overflow: visible;
+    position: relative;
+    height: 34px;
+
 }

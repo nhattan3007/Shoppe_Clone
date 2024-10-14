@@ -7,6 +7,7 @@
 
 .sections-shoppe-footer {
     padding-bottom: 30px;
+    unicode-bidi: isolate;
 }
 
 .sections-shoppe-footer_heading {

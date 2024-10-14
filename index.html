@@ -4,30 +4,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width initial-scale=1.0">
-    <link rel="stylesheet" href="/Shoppe_Clone/static/navbar-header.css">
+    <link rel="stylesheet" href="./static/navbar-header.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-    <link rel="stylesheet" href="/Shoppe_Clone/static/footer.css">
+    <link rel="stylesheet" href="./static/footer.css">
     <title>shoppe_clone</title>
 </head>
 
-<body>
+<body style="margin: 0;;">
     <!-- header Content -->
     <header>
-        <div class="background-header">
+        <div class="background-navbar">
             <div class="navbar-wrapper container-wrapper">
                 <nav class="navbar-container">
                     <div class="navbar-left">
                         <ul class="navbar-left-list">
-                            <li class="list-item"><a href="#">Kênh người bán</a></li>
-                            <li class="list-item"><a href="#">Tải ứng dụng</a></li>
+                            <li class="list-item" style="padding: 4px;"><a href="#">Kênh người bán</a></li>
+                            <li class="list-item" style="padding: 4px;"><a href="#">Tải ứng dụng</a></li>
                             <li class="list-item">
                                 <div class="flex-contact">
                                     <ul class="flex-contact-list" style="list-style-type: none;">
-                                        <li>
-                                            <p>Kết nối</p>
+                                        <li class="flex-contact-list-item">
+                                            <p style="margin: 0px;">Kết nối</p>
                                         </li>
-                                        <li><i class="fa-brands fa-facebook"></i></li>
-                                        <li><i class="fa-brands fa-instagram"></i></li>
+                                        <div class="flex-contact-list-icon">
+                                            <li style="margin: 0px 10px 0px 0px;"><i class="fa-brands fa-facebook"></i>
+                                            </li>
+                                            <li style="margin: 0px 10px 0px 0px;"><i class="fa-brands fa-instagram"></i>
+                                            </li>
+                                        </div>
                                     </ul>
                                 </div>
                             </li>
@@ -36,29 +40,54 @@
 
                     <div class="navbar-right">
                         <ul class="navbar-right-list">
-                            <li><a href="#">Thông báo</a></li>
-                            <li><a href="#">Hỗ Trợ</a></li>
-                            <li>
-                                <div>
-                                    <span>language</span>
-                                </div>
-                            </li>
-                            <li class="navbar-right_link-account">
-                                <i class="fa-solid fa-user"></i>
-                                <div class="navbar_username">
-                                    nhat_tan0011
-                                </div>
-                            </li>
+                            <div class="navbar-right-list-notification">
+                                <li><i class="fa-regular fa-bell"></i></li>
+                                <li style="margin: 0px 0px 0px 10px;"><a href="#">Thông báo</a></li>
+                            </div>
+                            <div class="navbar-right-list-help">
+                                <li><img src="static/image/circle-hellp.svg" alt="icon help"></li>
+                                <li><a href="#">Hỗ Trợ</a></li>
+                            </div>
+                            <div class="navbar-right-list-lauguages">
+                                <li><i class="fa-solid fa-globe"></i></li>
+                                <li>
+                                    <p style="margin: 0px 5px;">Tiếng Việt</p>
+                                </li>
+                                <li><i class="fa-solid fa-chevron-down"></i></li>
+                            </div>
+                            <div class="navbar-link-signup">
+                                <a href="#">Đăng Ký</a>
+                            </div>
+                            <div class="navbar-link-login">
+                                <a href="#">Đăng Nhập</a>
+                            </div>
                         </ul>
                     </div>
                 </nav>
             </div>
 
-            <div class="container.header-with-search">
-                <div class="navbar-container-with-search">
-                    <a href="#" style="padding: 0px 40px 0px 0px;">
-                        <img src="static/image/shopee-1.svg" alt="shoppe logo" width="162px" height="59px">
+            <div class="container-wrapper header-with-search-wrapper">
+                <div class="container-header-with-search">
+                    <a class="header-with-search_logo-section" href="https://shopee.vn/">
+                        <div class="header-with-search_logo-wrapper">
+                            <img src="static/image/Shopee.svg.png" alt="shoppe logo" width="162px" height="50px">
+                        </div>
                     </a>
+                    <div class="header-with-search_search-section">
+                        <form action="#" role="search" autocomplete="off" class="shopee-searchbar"
+                            style="margin-top: 0em;">
+                            <div class="shoppe-searchbar_main">
+                                <div class="shopee-searchbar-input">
+                                    <input aria-label="Shoppe bao ship 0Đ - Đăng Ký Ngay!"
+                                        class="shopee-searchbar-input_input" maxlength="128"
+                                        placeholder="Shoppe bao ship 0Đ - Đăng Ký Ngay!">
+                                </div>
+                                <button type="button" class="search-button">
+                                    <img src="static/image/search-button.svg" alt="icon search" width="19" height="19">
+                                </button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
@@ -104,6 +133,30 @@
                             <u>
                                 <a style="color: inherit" href="https://shopee.co.id/">
                                     <b>Indonesia</b>
+                                </a>
+                            </u>
+                            ,
+                            <u>
+                                <a style="color: inherit" href="#">
+                                    <b>Thái lan</b>
+                                </a>
+                            </u>
+                            ,
+                            <u>
+                                <a style="color: inherit" href="#">
+                                    <b>Philippines</b>
+                                </a>
+                            </u>
+                            ,
+                            <u>
+                                <a style="color: inherit" href="#">
+                                    <b>Đài loan</b>
+                                </a>
+                            </u>
+                            ,
+                            <u>
+                                <a style="color: inherit" href="#">
+                                    <b>Brazil</b>
                                 </a>
                             </u>
                         </span>
