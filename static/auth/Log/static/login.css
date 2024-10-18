@@ -1,0 +1,31 @@
+body {
+  font-size: 0.875rem;
+}
+
+.shoppe-progress-bar {
+  background: linear-gradient(90deg, hsla(0, 0%, 100%, 0.3) 0, #fff 30%, #fff);
+  border-bottom-right-radius: 2px;
+  border-top-right-radius: 2px;
+  height: 3px;
+  left: -100%;
+  position: fixed;
+  top: 0;
+  transition: transfrom 30s ease-out;
+  width: 100%;
+  z-index: 10000;
+}
+
+.header-navbar {
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.06);
+  height: 84px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-list {
+  margin: 0 auto;
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
