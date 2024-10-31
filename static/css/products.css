@@ -1,0 +1,8 @@
+.filterByRating {
+  width: 7rem;
+}
+
+#star-4:hover {
+  cursor: pointer;
+  color: yellow;
+}
